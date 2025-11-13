@@ -18,7 +18,7 @@ TM1637Display segment = TM1637Display(CLK, DIO);
 
 unsigned char SEG_DONE[] =    // This is a message array
 {
-  0x73,0x78,0x77,0x54         // replace the 4 nulls with hex values that display   PotS  
+  0x73,0x78,0x77,0x54         // replace the 4 nulls with hex values that display   StAn  
 };
 
 void setup()
